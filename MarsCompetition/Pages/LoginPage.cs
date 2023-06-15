@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace MarsCompetition.Pages
 {
 
-    public class Loginpage
+    public class Loginpage 
     {
         readonly IWebDriver driver;
         public Loginpage(IWebDriver driver) { this.driver = driver; }

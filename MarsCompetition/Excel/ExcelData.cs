@@ -115,7 +115,7 @@ namespace MarsCompetition.Excel
             return tests;
         }
 
-        public static ICollection<ExcelTestCase> ReadEditkilTestCases(string filepath, string sheetname)
+        public static ICollection<ExcelTestCase> ReadEditSkillTestCases(string filepath, string sheetname)
         {
 
             var dataSet = ReadExcelDataset(filepath, sheetname);
